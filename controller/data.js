@@ -24,6 +24,7 @@ router.get('/get-data', async (req,res)=>{
   console.log('this is working')
     try{
         const foundData = await Data.find({})
+        console.log(foundData)
         res.json({
             data: foundData
         })

@@ -12,7 +12,8 @@ const dataSchema = new mongoose.Schema({
   //FIRST UPDATE IS YEAR 2017
   secondUpdate: String,
   //SECOND UPDATE IS YEAR 2020
-  notes: String
+  notes: String,
+  trend: String
 })
 
 const Data = mongoose.model('Data', dataSchema)
